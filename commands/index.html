@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="filter: blur(0px);">
+<html style="filter: blur(0px);padding: 0px;margin: 0;">
 
 <head>
     <meta charset="utf-8">
@@ -15,10 +15,11 @@
     <link rel="icon" type="image/png" sizes="1000x1000" href="../assets/img/27f5203a-c094-4d87-9477-34d7fd9a25e5.png">
     <link rel="icon" type="image/png" sizes="1000x1000" href="../assets/img/27f5203a-c094-4d87-9477-34d7fd9a25e5.png">
     <link rel="icon" type="image/png" sizes="1000x1000" href="../assets/img/27f5203a-c094-4d87-9477-34d7fd9a25e5.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 
 <body>
@@ -28,63 +29,77 @@
                 <h2 class="text-center">Light - A Modular Discord Bot</h2>
                 <p class="text-center"><strong>Want a truckload of cool features? Try Light.</strong></p>
             </div>
-            <div class="buttons"><a class="btn btn-primary" role="button" data-bs-hover-animate="pulse" href="../">Home</a><a class="btn btn-primary" role="button" data-bs-hover-animate="pulse" href="https://thelightbot.xyz/invite">Invite</a><a class="btn btn-primary" role="button" data-bs-hover-animate="pulse" href="https://thelightbot.xyz/vote">Vote</a><a class="btn btn-primary" role="button" data-bs-hover-animate="pulse" href="https://thelightbot.xyz/commands">commands</a></div>
+            <div class="buttons"><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" href="../">Home</a><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" href="https://thelightbot.xyz/invite">Invite</a><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" href="https://thelightbot.xyz/vote">Vote</a><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" href="https://thelightbot.xyz/commands">commands</a></div>
         </div>
     </div>
+    <div class="alert alert-light text-center" role="alert" data-aos="fade" data-aos-delay="350"><span><strong>Please pardon our dust! This website is currently being redone.</strong><br></span></div>
     <h1 style="text-align: center;padding: 0px;height: 29px;margin: 17px;">Commands</h1>
-    <h4 class="text-center flex-grow-0" style="text-align: center;padding: 0px;height: 0px;margin: 39px;">All commands use the default prefix: <strong>&gt;</strong><br>To get the current set prefix, mention the bot.<br></h4>
-    <h6 class="text-center flex-grow-0" style="text-align: center;padding: 20px;height: 20px;margin: 0;">Do keep in mind that these are not ALL the commands Light has, but most of them.<br>Running &gt;help in your server always gives the most accurate commands available</h6>
+    <h4 class="text-center flex-grow-0" style="text-align: center;padding: 26px;height: 0px;margin: 39px;">All commands use the default prefix: <strong>&gt;</strong><br>To get the current set prefix, mention the bot.<br></h4>
+    <h6 class="text-center flex-grow-0" style="text-align: center;padding: 52px;height: 20px;margin: 0;">Do keep in mind that these are not ALL the commands Light has, but most of them.<br>Running &gt;help in your server always gives the most accurate commands available</h6>
     <div role="tablist" id="accordion-1" style="padding: 6px;margin: 67px;height: 637px;filter: blur(0px) brightness(100%) contrast(100%);">
         <div class="card">
             <div class="card-header" role="tab">
-                <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="true" aria-controls="accordion-1 .item-1" href="#accordion-1 .item-1">Moderation/Utility</a></h5>
+                <h5 class="mb-0"><a data-bs-toggle="collapse" aria-expanded="true" aria-controls="accordion-1 .item-1" href="#accordion-1 .item-1">Moderation/Utility</a></h5>
             </div>
-            <div class="collapse show item-1" role="tabpanel" data-parent="#accordion-1">
+            <div class="collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1">
                 <div class="card-body">
-                    <p class="card-text"><strong>ban</strong> Ban a user from this server and optionally delete days of messages.<br><strong>kick</strong> Kick a user.<br><strong>massban</strong> Mass bans user(s) from the server.<br><strong>modset</strong> Manage server administration settings.<br><strong>names</strong> Show previous names and nicknames of a user.<br><strong>rename</strong> Change a user's nickname.<br><strong>slowmode</strong> Changes channel's slowmode setting.<br><strong>softban</strong> Kick a user and delete 1 day's worth of their messages.<br><strong>tempban</strong> Temporarily ban a user from this server.<br><strong>unban</strong> Unban a user from this server.<br><strong>userinfo</strong> Show information about a user.<br><strong>voiceban</strong> Ban a user from speaking and listening in the server's voice channels.<br><strong>voicekick</strong> Kick a member from a voice channel.<br><strong>voiceunban</strong> Unban a user from speaking and listening in the server.<br><br></p>
+                    <p><strong>ban</strong> Ban a user from this server and optionally delete days of messages.<br><strong>kick</strong> Kick a user.<br><strong>massban</strong> Mass bans user(s) from the server.<br><strong>modset</strong> Manage server administration settings.<br><strong>names</strong> Show previous names and nicknames of a user.<br><strong>rename</strong> Change a user's nickname.<br><strong>slowmode</strong> Changes channel's slowmode setting.<br><strong>softban</strong> Kick a user and delete 1 day's worth of their messages.<br><strong>tempban</strong> Temporarily ban a user from this server.<br><strong>unban</strong> Unban a user from this server.<br><strong>userinfo</strong> Show information about a user.<br><strong>voiceban</strong> Ban a user from speaking and listening in the server's voice channels.<br><strong>voicekick</strong> Kick a member from a voice channel.<br><strong>voiceunban</strong> Unban a user from speaking and listening in the server.<br><br></p>
                 </div>
             </div>
         </div>
         <div class="card">
             <div class="card-header" role="tab">
-                <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-2" href="#accordion-1 .item-2">General</a></h5>
+                <h5 class="mb-0"><a data-bs-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-2" href="#accordion-1 .item-2">General</a></h5>
             </div>
-            <div class="collapse item-2" role="tabpanel" data-parent="#accordion-1">
+            <div class="collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
                 <div class="card-body">
-                    <p class="card-text"><strong>serverinfo</strong> Show server information.<br><strong>avatar</strong> Display a users avatar in chat<br><strong>botstats</strong> Display stats about the bot<br><strong>channeledit</strong> Modify channel options<br><strong>channelstats</strong>&nbsp;Gets total messages in a specific channel as well as the user who has posted the most in that channel<br><strong>emoji</strong> Post a large size emojis in chat<br><strong>getguilds</strong> Display info about multiple servers<br><strong>getreactions</strong> Gets a list of all reactions from specified message.<br><strong>getroles</strong>&nbsp;Displays all roles their ID and number of members in order of hierarchy<br><strong>guildedit</strong> Edit various guild settings<br><strong>guildemojis</strong> Display all server emojis in a menu that can be scrolled through<br><strong>nummembers</strong> Display number of users on a server<br><strong>pruneroles</strong> Perform various actions on users who haven't spoken in x days<br><strong>serverstats</strong> Gets total messages on the server and displays each.<br><strong>topic</strong> Sets a specified channels topic<br><strong>topmembers</strong> Lists top members on the server by join date<br><strong>stopwatch</strong> Start or stop the stopwatch.<br></p>
+                    <p><strong>serverinfo</strong> Show server information.<br><strong>avatar</strong> Display a users avatar in chat<br><strong>botstats</strong> Display stats about the bot<br><strong>channeledit</strong> Modify channel options<br><strong>channelstats</strong>&nbsp;Gets total messages in a specific channel as well as the user who has posted the most in that channel<br><strong>emoji</strong> Post a large size emojis in chat<br><strong>getguilds</strong> Display info about multiple servers<br><strong>getreactions</strong> Gets a list of all reactions from specified message.<br><strong>getroles</strong>&nbsp;Displays all roles their ID and number of members in order of hierarchy<br><strong>guildedit</strong> Edit various guild settings<br><strong>guildemojis</strong> Display all server emojis in a menu that can be scrolled through<br><strong>nummembers</strong> Display number of users on a server<br><strong>pruneroles</strong> Perform various actions on users who haven't spoken in x days<br><strong>serverstats</strong> Gets total messages on the server and displays each.<br><strong>topic</strong> Sets a specified channels topic<br><strong>topmembers</strong> Lists top members on the server by join date<br><strong>stopwatch</strong> Start or stop the stopwatch.<br></p>
                 </div>
             </div>
         </div>
         <div class="card">
             <div class="card-header" role="tab">
-                <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-3" href="#accordion-1 .item-3">Fun</a></h5>
+                <h5 class="mb-0"><a data-bs-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-3" href="#accordion-1 .item-3">Fun</a></h5>
             </div>
-            <div class="collapse item-3" role="tabpanel" data-parent="#accordion-1">
+            <div class="collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
                 <div class="card-body">
-                    <p class="card-text"><strong>react</strong> Add letter(s) as reaction to previous message.<br><strong>regional</strong> Replace letters with regional indicator emojis.<br><strong>space</strong> Add n spaces between each letter. Ex: <strong><em>&gt;space 2 thicc</em></strong>.<br><strong>textflip</strong> Flip given text.<br><strong>vowelreplace</strong> Replaces all vowels in a word with a letter.<br><strong>hangman</strong> Play a game of hangman against the bot!<br><strong>hangset</strong> Adjust hangman settings<br><strong>race</strong> Race related commands.<br><strong>setrace</strong> Race settings commands<br><strong>8</strong>&nbsp;Ask 8 ball a question.<br><strong>choose</strong>&nbsp;Choose between multiple options.<br><strong>flip</strong>&nbsp;Flip a coin... or a user.<br><strong>lmgtfy</strong>&nbsp;Create a lmgtfy link.<br><strong>roll</strong>&nbsp;Roll a random number.<br><strong>rps</strong>&nbsp;Play Rock Paper Scissors.<br></p>
+                    <p><strong>react</strong> Add letter(s) as reaction to previous message.<br><strong>regional</strong> Replace letters with regional indicator emojis.<br><strong>space</strong> Add n spaces between each letter. Ex: <strong><em>&gt;space 2 thicc</em></strong>.<br><strong>textflip</strong> Flip given text.<br><strong>vowelreplace</strong> Replaces all vowels in a word with a letter.<br><strong>hangman</strong> Play a game of hangman against the bot!<br><strong>hangset</strong> Adjust hangman settings<br><strong>race</strong> Race related commands.<br><strong>setrace</strong> Race settings commands<br><strong>8</strong>&nbsp;Ask 8 ball a question.<br><strong>choose</strong>&nbsp;Choose between multiple options.<br><strong>flip</strong>&nbsp;Flip a coin... or a user.<br><strong>lmgtfy</strong>&nbsp;Create a lmgtfy link.<br><strong>roll</strong>&nbsp;Roll a random number.<br><strong>rps</strong>&nbsp;Play Rock Paper Scissors.<br></p>
                 </div>
             </div>
         </div>
         <div class="card">
             <div class="card-header" role="tab">
-                <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-4" href="#accordion-1 .item-4">Bot Settings</a></h5>
+                <h5 class="mb-0"><a data-bs-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-4" href="#accordion-1 .item-4">Bot Settings</a></h5>
             </div>
-            <div class="collapse item-4" role="tabpanel" data-parent="#accordion-1">
+            <div class="collapse item-4" role="tabpanel" data-bs-parent="#accordion-1">
                 <div class="card-body">
-                    <p class="card-text"><strong>set&nbsp;Changes Light's settings.</strong><br><br><strong>autoimmune</strong> Server settings for immunity from automated actions.<br><strong>command</strong> Manage the bot's commands and cogs.<br><strong>embedset</strong> Commands for toggling embeds on or off.<br><strong>ignore</strong> Add servers or channels to the ignore list.<br><strong>licenseinfo</strong> Get info about Red's licenses.<br><strong>localallowlist</strong> Server specific allowlist management commands.<br><strong>localblocklist</strong> Server specific blocklist management commands.<br><strong>mydata</strong> Commands which interact with the data Light has about you.<br><strong>unignore</strong> Remove servers or channels from the ignore list.<br></p>
+                    <p><strong>set&nbsp;Changes Light's settings.</strong><br><br><strong>autoimmune</strong> Server settings for immunity from automated actions.<br><strong>command</strong> Manage the bot's commands and cogs.<br><strong>embedset</strong> Commands for toggling embeds on or off.<br><strong>ignore</strong> Add servers or channels to the ignore list.<br><strong>licenseinfo</strong> Get info about Red's licenses.<br><strong>localallowlist</strong> Server specific allowlist management commands.<br><strong>localblocklist</strong> Server specific blocklist management commands.<br><strong>mydata</strong> Commands which interact with the data Light has about you.<br><strong>unignore</strong> Remove servers or channels from the ignore list.<br></p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="d-lg-flex justify-content-lg-center align-items-lg-center footer-dark" style="padding: 18px;height: 69px;filter: blur(0px) saturate(100%);">
-        <footer class="d-lg-flex justify-content-lg-end align-items-lg-end">
-            <div class="container text-center">
-                <p class="copyright">Wumpus © 2021</p>
+    <div data-aos="fade" data-aos-delay="600" data-aos-once="true" class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Info</h3>
+                        <ul>
+                            <li><a href="https://dsc.gg/lights">Support Server</a></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social">
+                        <p class="text-end copyright">Wumpus 2020<br>Light is a custom instance of RedDiscord.<br><br></p>
+                    </div>
+                </div>
             </div>
         </footer>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="../assets/js/script.min.js"></script>
 </body>
 
